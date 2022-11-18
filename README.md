@@ -5,7 +5,7 @@
  ```
  CREATE DATABASE phonebook
 ```
-Next run <b>pipenv shell</b> for the folder and run
+Next run <b>pipenv shell</b> for the root directory and then run
 ```
 python3 app.py
 ```
