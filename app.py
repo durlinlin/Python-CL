@@ -45,6 +45,6 @@ def add():
     phone_number = input('Phone number: ')
   )
   new_Contact.save()
-  print('New contact has been saved')
+  print(f'New contact {new_Contact.first_name} {new_Contact.last_name} has been saved')
 
 greeting()
